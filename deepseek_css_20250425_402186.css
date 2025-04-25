@@ -1,0 +1,59 @@
+:root {
+    --space: #0b0e23;
+    --nebula: #4e3d8f;
+    --gamma: #00f7ff;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: var(--space);
+    color: white;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(to right, var(--nebula), transparent);
+    margin-bottom: 30px;
+}
+
+.section {
+    background: rgba(15, 20, 50, 0.7);
+    padding: 25px;
+    border-radius: 12px;
+    margin: 30px 0;
+    box-shadow: 0 0 15px rgba(0, 247, 255, 0.1);
+}
+
+figure {
+    border: 1px solid var(--gamma);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+figcaption {
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: #aaa;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 0.8em;
+    border-top: 1px solid var(--nebula);
+}
